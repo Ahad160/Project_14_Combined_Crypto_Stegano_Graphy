@@ -1,0 +1,6 @@
+pyinstaller --name your_app_name --onefile your_main_script.py
+
+a = Analysis(['your_main_script.py', 'module1.py', 'module2.py', 'module3.py'],
+             pathex=['/path/to/your/project'],
+
+pyinstaller your_app_name.spec
